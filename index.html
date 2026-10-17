@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Transformer Backup is a privately operated utility for encrypted backup storage in Google Drive using rclone.">
+  <meta name="robots" content="index,follow">
+  <title>Transformer Backup — Private encrypted backups</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">Transformer Backup</a>
+    <nav aria-label="Main navigation">
+      <a href="./" aria-current="page">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="https://github.com/tradpat-hq/transformer-backup-pages">GitHub</a>
+    </nav>
+  </header>
+  <main>
+    <div class="eyebrow">Private utility · Google Drive · rclone</div>
+    <h1>Encrypted backups, under the owner's control.</h1>
+    <p class="lead">Transformer Backup is a personal, non-commercial backup workflow. It uses the official rclone application and Google Drive authorization to store and retrieve owner-managed encrypted backup files.</p>
+    <div class="panel">
+      <h2>What this utility does</h2>
+      <ul>
+        <li>Prepares encrypted backup files locally before uploading them to the owner's Google Drive.</li>
+        <li>Uses Google Drive access only for owner-directed operations such as listing, uploading, downloading, checking and managing backups.</li>
+        <li>Keeps the private decryption identity separate from uploaded backup files.</li>
+        <li>Supports verifying downloaded encrypted backups before any separately authorized recovery.</li>
+      </ul>
+    </div>
+    <section class="section" aria-labelledby="website">
+      <h2 id="website">About this website</h2>
+      <p>This is a static informational website for the owner's Google OAuth client. It does not sign users in, process backups, collect Google OAuth tokens or provide an online file-management interface. Backup operations take place through rclone on the owner's computer.</p>
+      <p>Transformer Backup is not a public backup service and does not offer account registration or subscriptions.</p>
+    </section>
+    <section class="section" aria-labelledby="permissions">
+      <h2 id="permissions">Google Drive permissions</h2>
+      <p>The owner may authorize the full Google Drive scope so rclone can work with existing backup folders and verify stored files. This scope is broad: an authorized rclone client could read, create, modify and delete files. Actual operations are initiated by the owner under their own controls; this public website does not use those permissions.</p>
+    </section>
+    <section class="section" aria-labelledby="privacy">
+      <h2 id="privacy">Privacy and contact</h2>
+      <p>For details about data handling, permissions, retention and revoking access, please read the <a href="privacy.html">Privacy Policy</a>.</p>
+      <p>For questions about these public pages, use the <a href="https://github.com/tradpat-hq/transformer-backup-pages/issues">repository issue tracker</a>. Do not submit private files, access tokens or recovery keys.</p>
+    </section>
+  </main>
+  <footer><p>© 2026 Transformer Backup · Personal backup utility · <a href="privacy.html">Privacy Policy</a></p></footer>
+</body>
+</html>
