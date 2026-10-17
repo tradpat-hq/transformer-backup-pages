@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the private Transformer Backup utility and its use of Google Drive through rclone.">
+  <title>Privacy Policy — Transformer Backup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">Transformer Backup</a>
+    <nav aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="privacy.html" aria-current="page">Privacy Policy</a>
+      <a href="https://github.com/tradpat-hq/transformer-backup-pages">GitHub</a>
+    </nav>
+  </header>
+  <main>
+    <div class="eyebrow">Data use and control</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: October 17, 2026</p>
+    <p class="lead">Transformer Backup is a privately operated, non-commercial workflow for the owner's encrypted backups. This policy describes the intended use of Google Drive access through rclone and the limited role of this public website.</p>
+    <section class="section">
+      <h2>1. Information accessed</h2>
+      <p>When the owner authorizes rclone with Google OAuth, rclone may access the Google Drive metadata and files necessary for owner-directed backup and recovery operations. The selected OAuth scope may be the full Google Drive scope, which permits broad access to the owner's Drive files; it is not restricted by the address of this website or merely by choosing a backup folder.</p>
+      <p>This website itself does not request Google sign-in, receive OAuth authorization codes or tokens, upload personal documents or read Google Drive contents.</p>
+    </section>
+    <section class="section">
+      <h2>2. How information is used</h2>
+      <p>Google Drive access is used for operations initiated by the owner, including locating existing backup folders, uploading locally encrypted archives, checking file metadata, downloading encrypted backups, verifying integrity and managing retained backup objects. Files are not accessed for advertising, profiling or resale.</p>
+      <p>For the backup workflow, selected file contents are encrypted locally before upload. Decryption identities are intended to remain under the owner's separate control and are not part of the Drive backup payload.</p>
+    </section>
+    <section class="section">
+      <h2>3. Storage and sharing</h2>
+      <p>Encrypted backup objects are stored in the owner's selected Google Drive account and remain there until the owner chooses to remove them. OAuth credentials are managed locally by rclone under the computer user's permissions, not by this static website. The site has no application database or remote token storage.</p>
+      <p>Transformer Backup does not operate a third-party data brokerage service or intentionally transfer Google Drive user data to advertisers. Google Drive processes stored files under Google's own service terms and privacy practices. GitHub hosts these public pages and may process ordinary website access information under its own privacy statement.</p>
+    </section>
+    <section class="section">
+      <h2>4. Security and limits</h2>
+      <p>Access should use the owner's Google account and official OAuth flow. Sensitive archives should be encrypted before upload, recovery keys stored separately, and file integrity verified before recovery. No system is guaranteed free of risk. The chosen Google Drive permission is broad, so local rclone configuration and computer account access must be protected.</p>
+      <p>This is not a system-image or automatic full-device backup service; the precise selection and recovery coverage depend on each backup operation.</p>
+    </section>
+    <section class="section">
+      <h2>5. Control, deletion and revocation</h2>
+      <p>The owner controls which local files are selected and when backup files are uploaded, retrieved or deleted. The owner can remove backup objects from Google Drive and revoke the OAuth authorization from <a href="https://myaccount.google.com/connections">Google Account → Third-party connections</a>. Removing OAuth access stops further authorized API operations but does not itself delete files already stored in Drive.</p>
+    </section>
+    <section class="section">
+      <h2>6. Questions and policy updates</h2>
+      <p>For questions about the privacy information published here, open a public issue in the <a href="https://github.com/tradpat-hq/transformer-backup-pages/issues">project's GitHub repository</a>. Do not include private data, credentials or recovery keys in a public issue.</p>
+      <p>Material changes to this policy will be published on this page with an updated date.</p>
+    </section>
+    <div class="panel"><p>For a plain-language introduction, return to the <a href="./">Transformer Backup home page</a>.</p></div>
+  </main>
+  <footer><p>© 2026 Transformer Backup · <a href="./">Home</a> · <a href="privacy.html">Privacy Policy</a></p></footer>
+</body>
+</html>
